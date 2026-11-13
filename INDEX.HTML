@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Perú - Agencia de Turismo</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .jumbotron {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+            url('https://images.unsplash.com/photo-1526392060635-9d6019884377?w=1400');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 30px;
+        }
+
+        .jumbotron h1 {
+            font-weight: bold;
+        }
+
+        .destino img {
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .destino {
+            margin-bottom: 25px;
+        }
+
+        .nosotros {
+            background-color: #f2f2f2;
+            padding: 50px 0;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- BARRA DE NAVEGACIÓN -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Viajes Perú</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+    data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#destinos">Destinos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- PRESENTACIÓN PRINCIPAL -->
+<div class="jumbotron text-center" id="inicio">
+    <h1 class="display-3">Descubre el Perú</h1>
+
+    <p class="lead">
+        Vive experiencias inolvidables con nuestra agencia de viajes.
+        Conoce los lugares más hermosos de nuestro país.
+    </p>
+
+    <hr class="my-4">
+
+    <p>¡Tu próxima aventura comienza aquí!</p>
+
+    <a class="btn btn-warning btn-lg" href="#destinos">
+        Ver destinos
+    </a>
+</div>
+
+<!-- SECCIÓN DE DESTINOS -->
+<div class="container my-5" id="destinos">
+
+    <h2 class="text-center mb-4">Nuestros destinos turísticos</h2>
+
+    <p class="text-center mb-5">
+        Explora los lugares más maravillosos del Perú.
+    </p>
+
+    <div class="row">
+
+        <!-- MACHU PICCHU -->
+        <div class="col-md-4 destino">
+            <div class="card shadow">
+                <img src="imagenes/Machu Picchu.jpg"
+                class="card-img-top" alt="Machu Picchu">
+
+                <div class="card-body">
+                    <h5 class="card-title">Machu Picchu</h5>
+                    <p class="card-text">
+                        Machu Picchu es una ciudadela inca ubicada en las alturas de las montañas de los Andes en Perú, sobre el valle del río Urubamba.  
+                        Se construyó en el siglo XV y luego fue abandonada, y es famosa por sus sofisticadas paredes de piedra seca que combinan enormes bloques sin el uso de un mortero,
+                        los edificios fascinantes que se relacionan con las alineaciones astronómicas y sus vistas panorámicas.
+                    </p>
+                    <a href="#contacto" class="btn btn-primary">
+                        Consultar viaje
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- MONTAÑA DE 7 COLORES -->
+        <div class="col-md-4 destino">
+            <div class="card shadow">
+                <img src="imagenes/Montaña de 7 colores.jpg"
+                class="card-img-top" alt="Montaña de 7 colores">
+
+                <div class="card-body">
+                    <h5 class="card-title">Montaña de 7 colores</h5>
+                    <p class="card-text">
+                        Vinicunca o Winikunka, llamada también montaña de siete colores, montaña arcoíris o montaña de colores,
+                        es una montaña del Perú con una altitud de 5036 m s. n. m. Está situada en el camino al nevado Ausangate,
+                        Subir a la Montaña de los 7 Colores (Vinicunca) tiene una dificultad moderada a exigente, principalmente 
+                        por la altitud extrema (que alcanza los 5,200 metros sobre el nivel del mar) y el frío, más que por la distancia técnica.
+                    </p>
+                    <a href="#contacto" class="btn btn-primary">
+                        Consultar viaje
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- LAGUNA HUACACHINA -->
+        <div class="col-md-4 destino">
+            <div class="card shadow">
+                <img src="imagenes/Laguna Huacachina.jpg"
+                class="card-img-top" alt="Laguna Huacachina">
+
+                <div class="card-body">
+                    <h5 class="card-title">Laguna Huacachina</h5>
+                    <p class="card-text">
+                        Huacachina es un oasis desértico y una pequeña villa justo al oeste de la ciudad de Ica, en el suroeste de Perú.
+                        En su centro están las aguas verdes de la laguna de Huacachina, la cual se cree que tiene propiedades terapéuticas y está rodeada de palmas.
+                        Las orillas de la laguna tienen bares y clubes. Los buggies recorren las altas dunas onduladas que rodean la villa.
+                    </p>
+                    <a href="#contacto" class="btn btn-primary">
+                        Consultar viaje
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- CAÑON DE COLCA -->
+        <div class="col-md-4 destino">
+            <div class="card shadow">
+                <img src="imagenes/cañon de colca.jpg"
+                class="card-img-top" alt="Cañon de Colca">
+
+                <div class="card-body">
+                    <h5 class="card-title">Cañon de Colca</h5>
+                    <p class="card-text">
+                        El Cañón del Colca se encuentra en el valle de un río del sur de Perú y es famoso por ser uno de los más profundos del mundo.
+                        Es un destino famoso para el senderismo. Es un hábitat del cóndor Andino gigante, que se observa desde miradores como la Cruz del Cóndor.
+                        El paisaje del cañón abarca un valle verde y aldeas remotas tradicionales con agricultura en terrazas que precedió a los Incas.
+                    </p>
+                    <a href="#contacto" class="btn btn-primary">
+                        Consultar viaje
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- LAGO TITICACA -->
+        <div class="col-md-4 destino">
+            <div class="card shadow">
+                <img src="imagenes/Lago Titicaca.jpg"
+                class="card-img-top" alt="Lago Titicaca">
+
+                <div class="card-body">
+                    <h5 class="card-title">Lago Titicaca</h5>
+                    <p class="card-text">
+                        El lago Titicaca se extiende por la frontera entre Perú y Bolivia en la cordillera de los Andes y es uno de los lagos más grandes de Sudamérica
+                        y el cuerpo de agua navegable más alto del mundo. Se dice que es la cuna de los incas y cuenta con varias ruinas. Sus aguas son conocidas por ser tranquilas
+                        y dar un reflejo brillante. En sus alrededores, se ubica la Reserva Nacional del Titicaca que alberga especies acuáticas poco comunes, como las ranas gigantes.
+                    </p>
+                    <a href="#contacto" class="btn btn-primary">
+                        Consultar viaje
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- FORTALEZA DE KUÉLAP -->
+        <div class="col-md-4 destino">
+            <div class="card shadow">
+                <img src="imagenes/Fortaleza de Kuélap.jpg"
+                class="card-img-top" alt="Fortaleza de Kuélap">
+
+                <div class="card-body">
+                    <h5 class="card-title">Fortaleza de Kuélap</h5>
+                    <p class="card-text">
+                        Kuélap, también llamado Cuélap, es un importante sitio arqueológico preinca ubicado en los Andes nororientales de Perú,
+                        en la Provincia de Luya ubicada en el Departamento de Amazonas. Fue construido por la cultura Chachapoyas, fue construida por la Cultura Chachapoyas 
+                        entre los siglos X y XI d. C. a 3,000 metros de altitud en el Amazonas peruano, Cultura Chachapoyas entre los siglos X y XI d. C. a 3,000 metros de altitud en el Amazonas peruano, 
+                        está envuelta en diversos mitos y leyendas que explican su origen y la resistencia de los llamados "Guerreros de las Nubes".
+                    </p>
+                    <a href="#contacto" class="btn btn-primary">
+                        Consultar viaje
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- SECCIÓN NOSOTROS -->
+<section class="nosotros" id="nosotros">
+    <div class="container text-center">
+
+        <h2>¿Quiénes somos?</h2>
+
+        <p class="mt-4">
+            Somos Viajes Perú, una agencia de turismo dedicada a ofrecer
+            experiencias únicas e inolvidables. Nuestro objetivo es
+            mostrar la riqueza cultural, histórica y natural de nuestro
+            hermoso país.
+        </p>
+
+        <p>
+            Te acompañamos en cada aventura para que descubras lo mejor
+            del Perú.
+        </p>
+
+    </div>
+</section>
+
+<!-- SECCIÓN CONTACTO -->
+<div class="container my-5" id="contacto">
+
+    <h2 class="text-center mb-4">Contáctanos</h2>
+
+    <p class="text-center">
+        ¿Quieres conocer el Perú? Escríbenos y planifica tu próxima aventura.
+    </p>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+
+            <form>
+                <div class="form-group">
+                    <label>Nombre completo</label>
+                    <input type="text" class="form-control"
+                    placeholder="Ingresa tu nombre">
+                </div>
+
+                <div class="form-group">
+                    <label>Correo electrónico</label>
+                    <input type="email" class="form-control"
+                    placeholder="Ingresa tu correo">
+                </div>
+
+                <div class="form-group">
+                    <label>Mensaje</label>
+                    <textarea class="form-control" rows="4"
+                    placeholder="Escribe tu consulta"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-success btn-block">
+                    Enviar mensaje
+                </button>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+<!-- PIE DE PÁGINA -->
+<footer>
+    <p class="mb-0">
+        © 2026 Viajes Perú - Todos los derechos reservados.
+    </p>
+    <p class="mb-0">
+        Descubre, viaja y disfruta del Perú.
+    </p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
